@@ -20,7 +20,7 @@ func main(){
 
 	if *verbose{
 		choices := len(secretkey.Characters)
-		fmt.Printf("You are generating %d characters, each with %d possibilities each.\n", n, choices)
+		fmt.Printf("You are generating %d characters, with %d possibilities for each character.\n", n, choices)
 		fmt.Println("Here is your secret key: ")
 	}
 	
